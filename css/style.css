@@ -41,6 +41,15 @@ h1, h2 , h3 , h4 , h5{
 }
 
 
+section{
+	height: 100%;
+	margin: 50px 20% 0  20%;
+	padding: 30px;
+	background-color: white;
+
+
+
+}
 .contnr{
 	padding: 20px 30px 40px 30px;
 
@@ -588,24 +597,8 @@ footer .c-right{
 
 
 
-.toscroll{
-	height: 100%;
-	margin: 50px 20% 0  20%;
-	padding: 30px;
-	background-color: white;
-}
 
 
-
-
-
-.ar{
-	padding: 0 10px;
-	margin: 10px 3%;
-	background-color: white;
-	height: 1000px;
-	border: 1px solid black;
-}
 
 
 
