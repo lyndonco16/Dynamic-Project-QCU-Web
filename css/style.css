@@ -31,15 +31,23 @@ body{
 }
 
 
-
-
-h1{
+p{
+	font-size: 18px;
 	font-family: Calibri, Arial, Verdana, Sans-Serif;
-	font-size: 36px;
+
+}
+
+h1, h2 , h3 , h4 , h5{
+	font-family: Cambria, Times New Roman, Serif;
 	margin: 0;
 	padding: 0;
 }
 
+
+.contnr{
+	padding: 20px 30px 40px 30px;
+
+}
 
 .nw-contnr .ne-contnr-btn h1 a{
 	text-decoration: none;
@@ -297,7 +305,6 @@ img.num-sld{
 .nw-contnr{
 	background-color: mediumslateblue;
 	box-shadow: inset 0px 5px 15px -15px black;
-	padding: 20px 30px;
 }
 
 
@@ -386,7 +393,6 @@ a.nw-anchor{
 
 .event-contnr{
 	background-color: aliceblue;
-	padding: 20px 30px;
 }
 
 
@@ -414,11 +420,22 @@ a.nw-anchor{
 	
 
 
+a.event-anchor{
+	height: 100%;
+	padding: 0;
+	margin: 0 10px;
+	text-decoration: none;
+	width: 30%;
+	color: black;
+	box-shadow: 0px 5px 15px -15px black;
+
+}
+
 .ev-date{
 	position: absolute;
 	background-color: mediumslateblue;
-	margin: -10px 0 0 10px;
-	padding: 0;
+	margin: -10px 0 0 15px;
+	padding: 5px 10px;
 	box-shadow: 0px 5px 5px -5px black;
 
 
@@ -427,23 +444,10 @@ a.nw-anchor{
 .ev-date p,
 .ev-date h3{
 	color: white;
+	margin: 3px 3px 2px 3px ;
+	padding:0;
 	text-align: center;
-	margin: 3px 6px;
-	padding: 0 3px;
 }
-
-
-a.event-anchor{
-	height: 100%;
-	padding: 0;
-	margin: 0 10px;
-	text-decoration: none;
-	width: 22%;
-	color: black;
-	box-shadow: 0px 5px 15px -15px black;
-
-}
-
 
 
 .event-img-sect{
@@ -472,16 +476,23 @@ a.event-anchor{
 
 }
 
+.event-ar-date{
+	margin: 0;
+	font-size: 14px;
+	padding: 5px 10px;
+	overflow-wrap: break-word;
+	text-transform: uppercase;
+}
 
 .event-ar-subject{
 	margin: 0;
-	padding: 20px 0 0 20px;
+	padding: 0 0 0 30px;
 	overflow-wrap: break-word;
 }
 
-.event-ar-content{
+.event-ar-add{
 	margin: 0;
-	padding: 10px;
+	padding: 0 10px 5px 30px;
 	overflow-wrap: break-word;
 }
 
