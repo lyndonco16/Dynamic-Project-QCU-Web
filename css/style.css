@@ -263,13 +263,21 @@ header nav ul li ul li{
 	padding: 50px 0 10px 0; 
 	width: 100%;
 	background-color: mediumturquoise;
-	transition:.2s;
+	transition: .2s;
 
 }
 
 
+.sld-show-changed{
+	padding: 50px 0 0 0; 
+	width: 100%;
+	background-color: black;
+	transition: .2s;
 
-img.num-sld{
+}
+
+
+.num-sld{
 	box-shadow: 0px 3px 10px -3px dimgray;
 	height: 500px;
 	width: 100%;
@@ -277,6 +285,13 @@ img.num-sld{
 
 }
 
+.num-sld-changed{
+	box-shadow: 0px 3px 10px -3px transparent;
+	height: 500px;
+	width: 100%;
+	object-fit: cover;
+
+}
 
 
 

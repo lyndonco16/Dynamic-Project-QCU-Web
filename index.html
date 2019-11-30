@@ -231,9 +231,12 @@
 		window.onscroll = function() {scrollFunction()};
 		function scrollFunction() {
 		  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-			$("#sld-show").addClass(".sld-show-changed").end().removeClass(".sld-show");
+			$("#sld-show").addClass("sld-show-changed").end().removeClass("sld-show");
+			$("#sld-show img").addClass("num-sld-changed").end().removeClass("num-sld");
+
 		  } else {
-			$("#sld-show").removeClass(".sld-show-changed").end().addClass(".sld-show");
+			$("#sld-show").removeClass("sld-show-changed").end().addClass("sld-show");
+			$("#sld-show img").removeClass("num-sld-changed").end().addClass("num-sld");
 		  }
 
 
