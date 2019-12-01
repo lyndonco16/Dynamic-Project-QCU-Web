@@ -49,6 +49,28 @@ section{
 .contnr{
 	padding: 20px 30px 40px 30px;
 }
+
+
+.contnr-btn{
+	box-shadow: 0px 5px 10px -10px black;
+	transform: skewX(25deg);
+	padding: 0 40px 0 40px;
+	margin: 10px 10px 20px 10px;
+	float: right;
+	transition: .4s
+}
+
+
+.contnr-btn:hover{
+	box-shadow: 0px 5px 10px -10px black;
+	transform: skewX(25deg);
+	padding: 0 40px 0 90px;
+	margin: 10px 10px 20px 10px;
+	float: right;
+	transition: .4s
+
+}
+
 .nw-contnr .ne-contnr-btn h1 a{
 	text-decoration: none;
 	color: mediumslateblue;
@@ -330,12 +352,7 @@ header nav ul li ul li{
 }
 .ne-contnr-btn{
 	background-color: aliceblue;
-	box-shadow: 0px 5px 10px -10px black;
-	transform: skewX(25deg);
-	padding: 0 40px 0 40px;
-	margin: 10px 10px 20px 10px;
 	border-right: 10px solid gray;
-	float: right;
 }
 a.nw-anchor{
 	height: 100%;
@@ -395,10 +412,6 @@ a.nw-anchor{
 .ev-contnr-btn{
 	background-color: mediumslateblue;
 	color: white;
-	box-shadow: 0px 5px 15px -15px black;
-	transform: skewX(25deg);
-	padding: 0 40px 0 50px;
-	margin: 10px 10px 20px 10px;
 	border-right: 10px solid darkslateblue;
 	float: right;
 }
