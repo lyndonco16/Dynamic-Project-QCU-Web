@@ -91,6 +91,20 @@ font-size: 18px;
 }
 
 
+section .page-img{
+	height: 600px;
+	width: 100%;
+	object-fit: cover;
+	padding: 0;
+	margin: 0;
+}
+section .img-src-desc{
+	text-align: center;
+	margin: 0;
+	padding: 0 2%;
+	box-shadow: 0px 5px 10px -10px black;
+}
+
 /*  >>>>>>>>>>>>>>>>>   END OF GLOBAL STYLE <<<<<<<<<<<<<<<<<<<<<<*/
 
 
@@ -298,10 +312,9 @@ header nav ul li ul li{
 
 }
 
-
 .num-sld{
 	box-shadow: 0px 3px 10px -3px dimgray;
-	height: 500px;
+	height: 590px;
 	width: 100%;
 	object-fit: cover;
 
@@ -309,11 +322,12 @@ header nav ul li ul li{
 
 .num-sld-changed{
 	box-shadow: 0px 3px 10px -3px transparent;
-	height: 500px;
+	height: 590px;
 	width: 100%;
 	object-fit: cover;
 
 }
+
 
 
 
@@ -483,19 +497,6 @@ a.event-anchor{
 
 
 
-section .nw-page-img{
-	height: 600px;
-	width: 100%;
-	object-fit: cover;
-	padding: 0;
-	margin: 0;
-}
-section .img-src-desc{
-	text-align: center;
-	margin: 0;
-	padding: 0 2%;
-	box-shadow: 0px 5px 10px -10px black;
-}
 
 section .news-section{
 	display: flex;
@@ -646,19 +647,7 @@ article .btn-align button h2{
 
 
 
-section .ev-page-img{
-	height: 600px;
-	width: 100%;
-	object-fit: cover;
-	padding: 0;
-	margin: 0;
-}
-section .img-src-desc{
-	text-align: center;
-	margin: 0;
-	padding: 0 2%;
-	box-shadow: 0px 5px 10px -10px black;
-}
+
 
 section .ev-section{
 	display: flex;
@@ -727,6 +716,41 @@ section .ev-section article .ev-list{
 	padding: 0;
 }
 
+
+
+
+
+article .ev-poster-desc img.ev-poster{
+	width: 100%;
+	height: 400px;
+	object-fit: contain;
+	background-color: mediumslateblue;
+	box-shadow: 0px 5px 10px -10px black;
+}
+
+
+
+
+article .ev-poster-desc ul{
+	list-style: none;	
+	margin: 0;
+	padding: 0 0 0 20px;
+
+}
+
+article .ev-poster-desc ul li,
+article .ev-poster-desc ul li h5,
+article .ev-poster-desc ul li p{
+	margin: 0;
+	padding: 0;
+
+}
+
+article .ev-poster-desc ul li{
+	margin: 0 0 15px 0;
+	padding: 0;
+
+}
 article.ev-s-bar .ev-list h1{
 	background-color: mediumslateblue;	
 	padding: 20px;
@@ -774,7 +798,7 @@ article.ev-s-bar .ev-list h1{
 }
 
 article .btn-align{
-	margin: 0;
+	margin:0 0 15px 0;
 	padding: 0;
 	height: 40px;
 	width: 100%;
@@ -794,6 +818,33 @@ article .btn-align button{
 
 article .btn-align button h2{
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
