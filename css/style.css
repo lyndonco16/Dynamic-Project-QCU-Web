@@ -632,6 +632,175 @@ article .btn-align button{
 article .btn-align button h2{
 }
 
+
+
+
+
+
+
+
+
+
+/*		********************** events.html *************************/
+
+
+
+
+section .ev-page-img{
+	height: 600px;
+	width: 100%;
+	object-fit: cover;
+	padding: 0;
+	margin: 0;
+}
+section .img-src-desc{
+	text-align: center;
+	margin: 0;
+	padding: 0 2%;
+	box-shadow: 0px 5px 10px -10px black;
+}
+
+section .ev-section{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+
+section  .ev-section main{
+	padding:50px 50px 50px 70px;
+	margin: 10px 0 0 0 ;
+	width: 65%; 
+	background-color: white;
+	float: left;
+}
+
+section .ev-section main article p:first-child::first-letter{
+	font-size: 200%;
+	font-family: Cambria, Times New Roman, Serif;
+}
+
+section .ev-section main .ev-page-date{
+	font-family: Cambria, Times New Roman, Serif;
+}
+
+section .ev-section main .ev-head .ev-author{
+	padding: 0;
+	margin: 0;
+}
+
+section .ev-section main .ev-head p.ev-art-summary{
+text-align: justify;
+padding: 0;
+margin: 5px;
+
+}
+
+section .ev-section main article p{
+text-indent: 50px;
+text-align: justify;
+
+}
+
+
+section .ev-section .ev-main-cat{
+	color: darkslategray;
+	text-align: right;
+	font-size: 24px;
+}
+
+article.ev-s-bar{
+	width: 35%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+section .ev-section article .ev-list{
+	display: block;
+	justify-content: center ;
+	border: 1px solid mediumslateblue;
+	background-color: white;
+	box-shadow: 0px 5px 10px -10px black;
+	margin: 10px 0 0 0 ;
+	padding: 0;
+}
+
+article.ev-s-bar .ev-list h1{
+	background-color: mediumslateblue;	
+	padding: 20px;
+	color: white;
+}
+
+
+.ev-list ul{
+	list-style: none;	
+	margin: 0;
+	padding: 0;
+
+}
+
+.ev-list ul li:first-child{
+	margin: 0;
+	padding: 10px 0 10px 0;
+	border-top: none;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+
+}
+
+.ev-list ul li{
+	margin: 0;
+	padding: 10px 0 10px 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 1px solid mediumslateblue;
+
+}
+
+
+
+.ev-list ul li h2{
+	margin: 0;
+	padding: 0;
+}
+
+
+.ev-list ul li p{
+	margin: 0;
+	padding: 0;
+
+}
+
+article .btn-align{
+	margin: 0;
+	padding: 0;
+	height: 40px;
+	width: 100%;
+}
+
+article .btn-align button{
+	padding: 10px 0 10px 0;
+	background-color: mediumslateblue;
+	border-style: none;
+	color: white;
+	width: 100%;
+	margin: 10px 0 10px 0;
+	align-self: center;
+	box-shadow: 0px 5px 10px -10px black;
+
+}
+
+article .btn-align button h2{
+}
+
+
+
+
+
+
+
 /*		********************** WELCOME FOOTER *************************/
 
 
