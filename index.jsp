@@ -1,4 +1,7 @@
+<%@ include file ="jsp/conn.jsp" %>
+
 <!DOCTYPE html>
+
 <html>
 <head>
 	<title>Quezon City University</title>
